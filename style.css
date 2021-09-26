@@ -704,7 +704,11 @@ text-align: center;
   line-height: 1.8;
   
 }
-
+.active  {
+  border: 0px ;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+}
 
 }
 
