@@ -689,19 +689,31 @@ text-align: center;
   border:  1px solid black;
 }
 
+.about__image img {
+  border-radius: 50%;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
 .about__details {
   flex-basis: 50%;
  
 }
 
 .about__details h3 {
-  font-size: 20px;
-  color: #6b645d;
+  font-size:20px;
+  font-weight:bold;
+  color: #ff0000;
+  font-family: 'Libre Franklin', sans-serif;
+
 }
 
 .about__details p {
   color: #6b645d;
-  line-height: 1.8;
+  line-height: 29px;
+  font-size: 14px;
+  font-weight: 500;
   
 }
 .active  {
