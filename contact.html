@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Contact Us</title>
+<link href="contactstyle.css" rel="stylesheet" type="text/css" media="all"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Working Contact Form HTML/PHP " />
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="assest/H.png" sizes="50x50" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="shortcut icon" href="./assests/site-img/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+<link rel="stylesheet" href="thankstyle.css">
+
+<body>
+
+	<div class="navbar">
+		<div class="logo">
+		  <img src="assest/logo.jpg" alt="logo">
+		</div>
+		<div class="header">
+		<a  href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+		<a href="service.html"><i class="fa fa-fw fa-tasks"></i> Service</a> 
+		<a href="about.html"><i class="fa fa-fw fa-user"></i> About</a> 
+		<a  class="active" href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+		</div>
+	</div>
+		<!---header--->
+		<div class="contactheader">
+			<h1>Contact Us</h1>
+		</div>
+		<!---header--->
+		<!---main--->
+			<div class="main-content">
+				<div class="contact-w3">
+
+					<form action="send_mail.php" method="post">
+						<label>Name</label>
+						<input type="text" name="name" id="input-text" placeholder="Your name" required>
+						<div class="contact-row">
+							<div class="contact-left-w3">
+								<label>Email</label>
+									<input type="text" name="email" id="input-text" placeholder="Email address" required>
+							</div>
+							<div class="contact-right-w3l">
+								<label>Phone</label>
+								<input type="text" name="phone"  id="input-text" placeholder="Phone number" required>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<label>Subject</label>
+							<input type="text" name="subject" id="input-text"  placeholder="Subject" required>
+						<div class="row1">
+							<label>Message</label>
+							<textarea placeholder="Message" id="input-text" name="message"></textarea>
+						</div>
+						<input type="submit"  id="input-text" value="Send message">
+					</form>
+				</div>
+			</div>
+			<footer class="site-footer">
+				<div class="container">
+				  <div class="row">
+					<div class="col-md-8 col-sm-6 col-xs-12">
+					  <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved | Home Tution <span>Made with <i class="fa fa-heart pulse"></i>by <a href="https://www.linkedin.com/in/rishabhsaini0204" target="_blank">Rishabh</a>
+					  </span></p>
+					  
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+					  <ul class="social-icons">
+						
+						<li><a class="whatsapp" href="https://wa.me/+917983434684" target="_blank" ><i class="fab fa-whatsapp" ></i></a></li>
+						<li><a class="instagram" href="https://www.instagram.com/rishabhsaini016/" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+						<li><a class="linkedin" href="https://www.linkedin.com/in/rishabhsaini0204" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li><a class="github" href="https://github.com/Rishabhsaini0204/" target="_blank"><i class="fab fa-github"></i></a></li> 
+						<li><a class="youtube" href="https://youtube.com/c/Rishabhsaini" target="_blank"><i class="fab fa-youtube"></i></a></li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+			  </footer>
+</body>
+</html>
